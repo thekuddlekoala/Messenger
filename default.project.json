@@ -1,0 +1,19 @@
+{
+  "name": "Messenger",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Messenger": {
+        "$path": "src/messenger"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server",
+        "$className": "Actor"
+      }
+    }
+  }
+}
